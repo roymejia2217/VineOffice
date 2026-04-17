@@ -156,6 +156,10 @@ src/
 <p align="center">
   <b>Instance Manager</b><br>
   <img src="docs/screenshots/instances.webp" width="700" alt="Instance Manager" />
+
+<p align="center">
+  <b>MS Word 2016</b><br>
+  <img src="docs/screenshots/result.webp" width="700" alt="MS Word 2016" />
 </p>
 
 ---
