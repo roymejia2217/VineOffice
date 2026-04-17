@@ -2,8 +2,18 @@
 name = "vineoffice"
 version = "0.1.0"
 edition = "2021"
-authors = ["VineOffice Team"]
+authors = ["Roy Mejia <roymejia2217@gmail.com>"]
 description = "TUI Installer for Microsoft Office on Wine"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/roymejia2217/VineOffice"
+keywords = ["office", "wine", "installer", "tui", "linux"]
+categories = ["command-line-utilities"]
+rust-version = "1.70"
+
+[[bin]]
+name = "vineoffice"
+path = "src/main.rs"
 
 [dependencies]
 # TUI framework
