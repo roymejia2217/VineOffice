@@ -167,3 +167,5 @@ src/
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
+**Disclaimer**: VineOffice is an independent open-source project and is not affiliated with, endorsed by, or sponsored by Microsoft Corporation. Microsoft, Office, Word, Project, Visio, and Segoe are trademarks of Microsoft Corporation.
