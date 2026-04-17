@@ -1,0 +1,48 @@
+[package]
+name = "vineoffice"
+version = "0.1.0"
+edition = "2021"
+authors = ["VineOffice Team"]
+description = "TUI Installer for Microsoft Office on Wine"
+
+[dependencies]
+# TUI framework
+ratatui = "0.29"
+crossterm = "0.28"
+
+# Async runtime
+tokio = { version = "1.43", features = ["full"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+tracing-appender = "0.2"
+
+# Errors
+thiserror = "2.0"
+anyhow = "1.0"
+
+# Utilities
+chrono = "0.4"
+dirs = "6.0"
+which = "7.0"
+walkdir = "2.5"
+glob = "0.3"
+regex = "1.10"
+lazy_static = "1.4"
+uuid = { version = "1.0", features = ["v4"] }
+
+# Remote font fetcher - Segoe UI family from GitHub with TLS verification
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
+
+[dev-dependencies]
+tempfile = "3.8"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true

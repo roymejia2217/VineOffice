@@ -1,0 +1,11 @@
+pub mod dependencies;
+pub mod desktop_integration;
+pub mod font_manager;
+pub mod installation;
+pub mod instance_manager;
+pub mod prefix_naming;
+pub mod product;
+pub mod registry;
+pub mod rollback;
+pub mod state;
+pub mod wine_prefix;
