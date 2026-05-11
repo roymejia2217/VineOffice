@@ -143,24 +143,12 @@ src/
 
 ## Screenshots
 
-<p align="center">
-  <b>Welcome Screen</b><br>
-  <img src="docs/screenshots/start.webp" width="700" alt="VineOffice Welcome Screen" />
-</p>
-
-<p align="center">
-  <b>Installation Progress</b><br>
-  <img src="docs/screenshots/install.webp" width="700" alt="Installation Progress" />
-</p>
-
-<p align="center">
-  <b>Instance Manager</b><br>
-  <img src="docs/screenshots/instances.webp" width="700" alt="Instance Manager" />
-
-<p align="center">
-  <b>MS Word 2016</b><br>
-  <img src="docs/screenshots/result.webp" width="700" alt="MS Word 2016" />
-</p>
+| Screenshot | Description |
+|---|---|
+| <img src="docs/screenshots/start.webp" alt="Welcome Screen" width="220"> | Welcome Screen. |
+| <img src="docs/screenshots/install.webp" alt="Installation Progress" width="220"> | Installation Progress. |
+| <img src="docs/screenshots/instances.webp" alt="Instance Manager" width="220"> | Instance Manager. |
+| <img src="docs/screenshots/result.webp" alt="MS Word 2016" width="220"> | MS Word 2016. |
 
 ---
 
